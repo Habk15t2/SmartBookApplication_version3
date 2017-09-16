@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/b_g_color"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tittle"
+        android:layout_above="@+id/search"
+        />
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/search"
+        android:layout_above="@+id/allBtn"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@color/b_g_search_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="10px"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/rounded_border"
+            android:hint="search books"
+            android:textColor="@color/black"/>
+        <Button
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/kinhlup"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/allBtn"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/book"/>
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/hd"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/like"/>
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/test"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

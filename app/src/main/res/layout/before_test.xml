@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/b_g_color">
+
+    <ImageView
+        android:id="@+id/img_test"
+        android:background="@drawable/text_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_below="@+id/img_test"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:text="LEVEL 1: EASY"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="@color/blue_light"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:text="LEVEL 2: MEDIUM"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="@color/blue_light"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:text="LEVEL 3: HARD"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="@color/blue_light"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"/>
+    </LinearLayout>
+
+</RelativeLayout>

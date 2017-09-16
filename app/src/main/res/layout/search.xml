@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/b_g_color"
+    >
+    <LinearLayout
+        android:id="@+id/search"
+        android:orientation="horizontal"
+        android:background="@color/b_g_search_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="10px"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/rounded_border"
+            android:hint="search books"
+            android:textColor="@color/black"/>
+        <Button
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/kinhlup"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/below"
+        android:layout_below="@+id/search"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10px"
+        >
+        <TextView
+            android:text="recently search"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Book 1"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="@color/blue_light"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"/>
+        <Button
+            android:text="Book 2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="@color/blue_light"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"/>
+        <Button
+            android:text="Book 3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="@color/blue_light"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"/>
+    </LinearLayout>
+</RelativeLayout>

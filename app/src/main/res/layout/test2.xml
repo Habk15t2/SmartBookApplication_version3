@@ -95,4 +95,15 @@
         android:textSize="32dp"
         android:layout_gravity="center"
         />
+    <Button
+        android:id="@+id/btn_submit"
+        android:onClick="btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:background="@drawable/rounded_border"
+        android:backgroundTint="@color/blue_light"
+        android:layout_marginBottom="10px"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"/>
 </LinearLayout>

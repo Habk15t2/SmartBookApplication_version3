@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BeforeTest"/>
+        <activity android:name=".ListBook"/>
+        <activity android:name=".Test2"/>
+        <activity android:name=".Score"/>
+        <activity android:name=".FeedBack"/>
+        <activity android:name=".Write"/>
     </application>
 
 </manifest>

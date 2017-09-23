@@ -25,7 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
-        android:id="@+id/btn_1"
+        android:id="@+id/btn_TryAgain"
+        android:onClick="btn_TryAgain"
         android:layout_below="@+id/text_view_2"
         android:text="try again"
         android:layout_marginTop="12dp"
@@ -35,8 +36,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
-        android:id="@+id/btn_2"
-        android:layout_below="@+id/btn_1"
+        android:id="@+id/btn_OtherTest"
+        android:onClick="btn_OtherTest"
+        android:layout_below="@+id/btn_TryAgain"
         android:layout_marginTop="12dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/rounded_border"
